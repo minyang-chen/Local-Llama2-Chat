@@ -4,8 +4,12 @@ from typing import Iterator
 import torch
 from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamer
 
-model_id = 'meta-llama/Llama-2-13b-chat-hf'
-#model_id = 'meta-llama/Llama-2-7b-chat-hf'
+#model_id = 'meta-llama/Llama-2-70b-hf'
+#model_id = 'meta-llama/Llama-2-70b-chat-hf'
+#model_id = 'meta-llama/Llama-2-13b-hf'
+#model_id = 'meta-llama/Llama-2-13b-chat-hf'
+model_id = 'meta-llama/Llama-2-7b-chat-hf'
+#model_id = 'meta-llama/Llama-2-7b-hf'
 
 # Load model directly
 if torch.cuda.is_available():
