@@ -2,7 +2,11 @@ __pycache__
 gradio_cached_examples
 wandb
 output
-output/*
+**output
+outputs
+**outputs/*
+**results/*
+**results
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -28,7 +32,7 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
-.installed.cfg
+.installed.cfghttps://huggingface.co/blog/stackllama
 *.egg
 MANIFEST
 
@@ -66,6 +70,10 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+
+#notebook stuff
+**/.ipynb_checkpoints*
+**/run**
 
 # Flask stuff:
 instance/
