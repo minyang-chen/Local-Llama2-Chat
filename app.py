@@ -13,15 +13,13 @@ DEFAULT_MAX_NEW_TOKENS = 1024
 MAX_INPUT_TOKEN_LENGTH = 4000
 
 DESCRIPTION = """
-# McLab Llama-2 13B Chat 
+# McLab Chatbot - (Llama-2-13b-hf) 
 
-Local version of model [Llama-2-13b-chat](https://huggingface.co/meta-llama/Llama-2-13b-chat) by Meta, a Llama 2 model with 13B parameters fine-tuned for chat instructions. Feel free to play with it.
-
-🔎 For more details about the Llama 2 family of models and how to use them with `transformers`, take a look [at our blog post](https://huggingface.co/blog/llama2).
+🔎 For more details about the Llama 2 family of models and how to use them with `transformers`, take a look [blog post](https://huggingface.co/blog/llama2).
 
 🔨 Looking for an even more powerful model? Check out the large [**70B** model demo](https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI).
 
-🐇 For a smaller model that you can run on many GPUs, check our [7B model demo](https://huggingface.co/spaces/huggingface-projects/llama-2-7b-chat).
+🐇 For a smaller model use [7B model demo](https://huggingface.co/spaces/huggingface-projects/llama-2-7b-chat).
 
 """
 
